@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HabitGlass Support</title>
+    <title>Ember Support</title>
+    <meta name="description" content="Get help with Ember, the beautiful habit tracking app. FAQ, contact support, and learn about features.">
+    <meta name="theme-color" content="#0a0a0f">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
@@ -12,14 +14,14 @@
             --bg-primary: #0a0a0f;
             --bg-secondary: #12121a;
             --bg-card: #1a1a24;
-            --accent: #7c5cff;
-            --accent-glow: rgba(124, 92, 255, 0.4);
+            --accent: #FF6B35;
+            --accent-glow: rgba(255, 107, 53, 0.4);
             --text-primary: #ffffff;
             --text-secondary: #a0a0b0;
             --text-muted: #606070;
             --border: rgba(255, 255, 255, 0.08);
-            --gradient-1: linear-gradient(135deg, #7c5cff 0%, #5c9fff 100%);
-            --gradient-2: linear-gradient(135deg, #ff5c8a 0%, #ff8a5c 100%);
+            --gradient-1: linear-gradient(135deg, #FF6B35 0%, #FFB347 100%);
+            --gradient-2: linear-gradient(135deg, #FF4444 0%, #FF6B35 100%);
         }
 
         * {
@@ -43,10 +45,10 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: 
-                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(124, 92, 255, 0.15) 0%, transparent 50%),
-                radial-gradient(ellipse 60% 40% at 100% 100%, rgba(92, 159, 255, 0.1) 0%, transparent 50%),
-                radial-gradient(ellipse 50% 30% at 0% 80%, rgba(255, 92, 138, 0.08) 0%, transparent 50%);
+            background:
+                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(255, 107, 53, 0.15) 0%, transparent 50%),
+                radial-gradient(ellipse 60% 40% at 100% 100%, rgba(255, 179, 71, 0.1) 0%, transparent 50%),
+                radial-gradient(ellipse 50% 30% at 0% 80%, rgba(255, 68, 68, 0.08) 0%, transparent 50%);
             pointer-events: none;
             z-index: 0;
         }
@@ -200,7 +202,7 @@
         }
 
         .faq-item:hover {
-            border-color: rgba(124, 92, 255, 0.3);
+            border-color: rgba(255, 107, 53, 0.3);
         }
 
         .faq-question {
@@ -227,7 +229,7 @@
             width: 24px;
             height: 24px;
             border-radius: 50%;
-            background: rgba(124, 92, 255, 0.2);
+            background: rgba(255, 107, 53, 0.2);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -289,14 +291,14 @@
 
         .feature-card:hover {
             transform: translateY(-4px);
-            border-color: rgba(124, 92, 255, 0.3);
+            border-color: rgba(255, 107, 53, 0.3);
         }
 
         .feature-icon {
             width: 48px;
             height: 48px;
             border-radius: 12px;
-            background: rgba(124, 92, 255, 0.15);
+            background: rgba(255, 107, 53, 0.15);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -368,15 +370,15 @@
 </head>
 <body>
     <div class="bg-gradient"></div>
-    
+
     <div class="container">
         <header>
             <div class="logo-container">
                 <div class="app-icon">
-                    <img src="app-icon.png" alt="HabitGlass App Icon">
+                    <img src="app-icon.png" alt="Ember App Icon">
                 </div>
             </div>
-            <h1>HabitGlass Support</h1>
+            <h1>Ember Support</h1>
             <p class="subtitle">We're here to help you build better habits</p>
         </header>
 
@@ -393,7 +395,7 @@
         </section>
 
         <section class="faq-section">
-            <h2 class="section-title"><span>❓</span> Frequently Asked Questions</h2>
+            <h2 class="section-title"><span>&#10067;</span> Frequently Asked Questions</h2>
             <div class="faq-grid">
                 <div class="faq-item">
                     <button class="faq-question">
@@ -406,7 +408,7 @@
                     </button>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            HabitGlass uses iCloud to sync your habits across all your Apple devices. Make sure you're signed into the same iCloud account on all devices and that iCloud sync is enabled in Settings → Data → iCloud Sync. Your habits will automatically sync in real-time.
+                            Ember uses iCloud to sync your habits across all your Apple devices. Make sure you're signed into the same iCloud account on all devices and that iCloud sync is enabled in Settings > Data > iCloud Sync. Your habits will automatically sync in real-time.
                         </div>
                     </div>
                 </div>
@@ -422,7 +424,7 @@
                     </button>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            HabitGlass includes a Vacation Mode feature! You can pause individual habits during your vacation, and your streaks will be protected. Go to any habit's settings and use "Pause Habit" to set a vacation period. Your streak will resume when you return.
+                            Ember includes a Vacation Mode feature! You can pause individual habits during your vacation, and your streaks will be protected. Go to any habit's settings and use "Pause Habit" to set a vacation period. Your streak will resume when you return.
                         </div>
                     </div>
                 </div>
@@ -438,7 +440,7 @@
                     </button>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            To restore your Premium purchase, go to Settings → Premium Status and tap "Restore Purchases". Make sure you're signed into the same Apple ID you used for the original purchase. If you have any issues, please contact us with your purchase receipt.
+                            To restore your Premium purchase, go to Settings > Premium Status and tap "Restore Purchases". Make sure you're signed into the same Apple ID you used for the original purchase. If you have any issues, please contact us with your purchase receipt.
                         </div>
                     </div>
                 </div>
@@ -454,7 +456,7 @@
                     </button>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Yes! HabitGlass supports multiple completions per day. When creating or editing a habit, you can set a daily target (e.g., "Drink 8 glasses of water"). Tap the right side of the habit card to add a completion, or the left side to subtract one.
+                            Yes! Ember supports multiple completions per day. When creating or editing a habit, you can set a daily target (e.g., "Drink 8 glasses of water"). Tap the right side of the habit card to add a completion, or the left side to subtract one.
                         </div>
                     </div>
                 </div>
@@ -470,7 +472,7 @@
                     </button>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            HabitGlass offers multiple backup options: (1) iCloud Sync automatically backs up to iCloud, (2) Automatic iCloud Drive Backup creates periodic backups you can access from Files app, (3) Manual Export lets you create a backup file anytime from Settings → Data → Export Backup. We recommend enabling all options for maximum safety.
+                            Ember offers multiple backup options: (1) iCloud Sync automatically backs up to iCloud, (2) Automatic iCloud Drive Backup creates periodic backups you can access from Files app, (3) Manual Export lets you create a backup file anytime from Settings > Data > Export Backup. We recommend enabling all options for maximum safety.
                         </div>
                     </div>
                 </div>
@@ -486,7 +488,7 @@
                     </button>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            You can set up custom reminders for each habit. Edit any habit and scroll to the Reminders section. You can set different reminder times for different days of the week. Make sure to allow notifications in your device's Settings for HabitGlass to receive reminders.
+                            You can set up custom reminders for each habit. Edit any habit and scroll to the Reminders section. You can set different reminder times for different days of the week. Make sure to allow notifications in your device's Settings for Ember to receive reminders.
                         </div>
                     </div>
                 </div>
@@ -502,7 +504,7 @@
                     </button>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Milestone Icons are special app icons you unlock by achieving streak milestones! As you build longer streaks, you'll unlock exclusive icons like Coal, Bronze, Silver, Gold, Emerald, Sapphire, Ruby, Diamond, and the legendary Purple Gold icon. Check Settings → Milestone Icons to see your progress.
+                            Milestone Icons are special app icons you unlock by achieving streak milestones! As you build longer streaks, you'll unlock exclusive icons like Coal, Bronze, Silver, Gold, Emerald, Sapphire, Ruby, Diamond, and the legendary Purple Gold icon. Check Settings > Milestone Icons to see your progress.
                         </div>
                     </div>
                 </div>
@@ -518,7 +520,7 @@
                     </button>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            You can cancel your subscription anytime through your Apple ID settings. Go to Settings app → [Your Name] → Subscriptions → HabitGlass → Cancel Subscription. You'll continue to have access until the end of your current billing period.
+                            You can cancel your subscription anytime through your Apple ID settings. Go to Settings app > [Your Name] > Subscriptions > Ember > Cancel Subscription. You'll continue to have access until the end of your current billing period.
                         </div>
                     </div>
                 </div>
@@ -526,35 +528,35 @@
         </section>
 
         <section class="features-section">
-            <h2 class="section-title"><span>✨</span> What You Can Do</h2>
+            <h2 class="section-title"><span>&#10024;</span> What You Can Do</h2>
             <div class="features-grid">
                 <div class="feature-card">
-                    <div class="feature-icon">📊</div>
+                    <div class="feature-icon">&#128202;</div>
                     <h3>Track Progress</h3>
                     <p>Beautiful visual statistics show your habits at a glance with streaks and completion rates.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">🔔</div>
+                    <div class="feature-icon">&#128276;</div>
                     <h3>Smart Reminders</h3>
                     <p>Set custom reminders for each day to never miss completing your habits.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">☁️</div>
+                    <div class="feature-icon">&#9729;&#65039;</div>
                     <h3>iCloud Sync</h3>
                     <p>Your habits sync seamlessly across all your Apple devices in real-time.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">🏝️</div>
+                    <div class="feature-icon">&#127965;&#65039;</div>
                     <h3>Vacation Mode</h3>
                     <p>Pause habits during vacations without breaking your precious streaks.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">🎨</div>
+                    <div class="feature-icon">&#127912;</div>
                     <h3>Custom Themes</h3>
                     <p>Personalize your app with beautiful color themes and custom icons.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">📱</div>
+                    <div class="feature-icon">&#128241;</div>
                     <h3>Home Widgets</h3>
                     <p>Track and complete habits right from your home screen with widgets.</p>
                 </div>
@@ -569,7 +571,7 @@
                 <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Terms of Service</a>
                 <a href="mailto:habitglassapp@gmail.com">Contact Us</a>
             </div>
-            <p class="copyright">© 2025 HabitGlass. All rights reserved.</p>
+            <p class="copyright">&copy; 2026 Ember. All rights reserved.</p>
         </div>
     </footer>
 
@@ -579,12 +581,12 @@
             button.addEventListener('click', () => {
                 const item = button.parentElement;
                 const isOpen = item.classList.contains('open');
-                
+
                 // Close all other items
                 document.querySelectorAll('.faq-item').forEach(faq => {
                     faq.classList.remove('open');
                 });
-                
+
                 // Toggle current item
                 if (!isOpen) {
                     item.classList.add('open');
@@ -594,5 +596,3 @@
     </script>
 </body>
 </html>
-
-
